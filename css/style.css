@@ -1,0 +1,338 @@
+html {
+    box-sizing: border-box;
+
+}
+body {
+    background-color: gray;
+}
+
+.header {
+    border-top: 2px solid #000;
+
+}
+
+input, textarea {
+    margin: 0 !important;
+}
+
+.container {
+    max-width: auto;
+    margin: 0 auto;
+    padding: 0 auto;
+    background: url(../images/otc.png);
+    /*Когда воспользовался url, то перестала показывать 
+     добавленные картинки путем img src в html*/
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-bottom: 1px solid #000;
+}
+
+.logo {
+}
+
+.header__inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social__icons-wrap {
+}
+
+.social__icons {
+    display: flex;
+    padding: 7px;
+    font-size: 10px;
+    line-height: 70px;
+    /* Иконки можно было отдельно прописать и задать им  больше расстояние, но мне уже было лень */
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+}
+
+.logo__title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+    text-align: left;
+    padding: 15px;
+}
+
+.top {
+    box-sizing: border-box;
+    padding: 280px 0 auto;
+}
+
+.top__title {
+    font-family: "";
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.container3 {
+    box-sizing: border-box;
+    max-width: auto;
+    margin: auto;
+    padding: 0 auto;
+    height: 660px;
+    text-decoration: none;
+}
+
+.aboutclub {
+    background: url(../images/cep.png);
+    height: 660px;
+    max-width: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+    border-bottom: 1px solid #000;
+    margin-right: auto;
+  
+
+}
+
+.tex__box {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    position: relative;
+    top: 10px;
+    left: 4px;
+    text-decoration: none;
+    
+
+    
+   
+}
+.videofile {
+    position: absolute;
+    top: 523px;
+    left: 50%;
+    border: 3px solid #fff;
+}
+
+.middle {
+    box-sizing: border-box;
+    padding: 280px 0 auto;
+}
+
+.sub__title {
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 52px;
+    color: #fff;
+    text-align: left;
+    padding: 40px;
+}
+
+.content1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 3px solid #fff;
+}
+
+.videofile2 {
+    width: 100%;
+}
+
+.frame-video {
+    width: 100%;
+    height: 100%;
+}
+
+.HMB__descr {
+    font-size: 40px;
+    padding-top: 20px;
+
+}
+
+.hmb__textbox {
+    font-size: 25px;
+    text-align: center;
+    font-style: italic;
+    padding: 0px 8%;
+}
+
+.about-video {
+    width: 100%;
+}
+
+.footer {
+    background-color: #540707;
+    padding-bottom: 80px 0 125px;
+    color:#d0e4ff;
+    box-sizing: border-box;
+
+}
+
+.footer__inner {
+    display: flex;
+    justify-content: space-between;
+    padding: 150px;
+    padding-top: 55px;
+}
+
+.footer-col__logo {
+    width: 256px;
+}
+
+.footer__logo {
+    margin-bottom: 60px;
+    
+
+}
+
+.footer-text {
+    font-size: 13px;
+    line-height: 22px;
+    padding-bottom: 45px;
+    border-bottom: 1px solid rgba(255, 255, 255, .05);
+    color:#d0e4ff;
+}
+
+.footer__title {
+    font-size: 16;
+    font-family: 'Roboto', sans-serif;
+    color: #d0e4ff;
+    margin-bottom: 30px;
+    line-height: 20px;
+}
+
+.footer__list {
+    color:#d0e4ff;
+    text-decoration: none;
+
+
+}
+
+.footer__list a {
+    line-height: 20px;
+    font-size: 14px;
+    margin-bottom: 8px;
+    text-decoration: none;
+    color: #d0e4ff;
+}
+
+.footer-menu {
+    width: 165px;
+}
+
+.footer-form {
+    width: 263px;
+}
+
+.footer-form input,
+.footer-form textarea {
+    border: 1.5px solid #000;
+    background-color: transparent;
+    height: 38px;
+    display: block;
+    padding: 0px 12px;
+    color: #000;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.footer-form button {
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 'Roboto', sans-serif;
+    border: none;
+    background-color: grey;
+    padding: 10px;
+    cursor: pointer;
+
+}
+
+.footer-form textarea::placeholder,
+.footer-form input::placeholder {
+    color: #000;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+
+.footer-form textarea {
+    padding: 12px;
+    height: 85px;
+    resize: none;
+    margin-bottom: 10px;
+}
+
+.parent {
+    position: relative;
+    width: 500px;
+    height: 300px;
+    background-color: red;
+}
+
+.child {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    width: 250px;
+    height: 250px;
+    background-color: green;
+}
+
+/*COMMNETS*/
+.about-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 550px;
+}
+
+.about-description-box {
+    background-image: url(../images/cep.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.about-description-text a {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 835px) {
+    .about-container, .content1 {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-video, .videofile2 {
+        width: 100%;
+        height: 500px;
+    }
+    .footer__inner {
+        flex-direction: column;
+    }
+
+    .top__title {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 477px) {
+    .header__inner {
+        flex-direction: column-reverse;
+    }
+    .footer__inner {
+        padding: 10px;
+    }
+}
